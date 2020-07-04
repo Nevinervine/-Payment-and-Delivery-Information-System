@@ -1,0 +1,551 @@
+*
+
+
+.basket_title {
+    font-size: 40px;
+    color: #353535;
+    margin-left:2%;
+}
+
+.basket_decoration {
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.basket_item_line {
+    display: flex;
+    height: 100px;
+    padding: 2%;
+
+}
+
+.basket_item {
+min-height:270px
+
+}
+
+.section {
+
+    width: 60%;
+    
+}
+
+.aside {
+    width: 30%;
+    margin-left: 5%;
+  
+
+}
+
+
+.basket_img {
+    
+    width:15%;
+    margin-left:5%;
+
+}
+
+.basket_img > img {
+    width: 100%;
+    height: auto;
+}
+
+.basket_item_line {
+    border-bottom: 1px solid #c1c1c1;
+    margin-bottom:2%;
+
+}
+
+.basket_dish_name{
+    font-size: 20px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.basket_dish_price {
+    font-size: 20px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    width: 10%;
+    font-weight: bold;
+    margin-right: 7%;
+}
+
+.basket_dish_price_ob {
+    font-size: 20px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    width: 10%;
+    font-weight: bold;
+    margin-right: 4%;
+    margin-left: 7%;
+}
+
+
+.basket_dish_kol {
+    background-size: 10px;
+    color: #c0d737;
+}
+
+
+
+
+
+
+
+.select-css {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em .6em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+}
+
+    .select-css::-ms-expand {
+        display: none;
+        text-align: center;
+    }
+
+    .select-css:hover {
+        border-color: #888;
+        text-align: center;
+    }
+
+    .select-css:focus {
+        border-color: #aaa;
+        color: #222;
+        outline: none;
+        text-align: center;
+    }
+
+
+
+
+
+.cl {
+   
+    width: 32px;
+    height: 32px;
+  
+}
+
+    .cl:hover {
+        opacity: 1;
+    }
+
+    .cl:before, .cl:after {
+     
+       
+        height: 33px;
+        width: 2px;
+        background-color: #333;
+    }
+
+.basket_close{
+    margin-top:1%;
+}
+
+.basket_delivery {
+display:flex;
+margin-top:2%;
+margin-bottom:2%;
+}
+
+.basket_delivery_text {
+    font-size: 20px;
+ 
+    margin-left: 2%;
+}
+
+
+
+.form_radio_btn_1 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 2%;
+    text-align: center;
+}
+
+    .form_radio_btn_1 input[type=radio] {
+        display: none;
+    }
+
+    .form_radio_btn_1 label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0px 15px;
+        padding-top: 15px;
+        line-height: 24px;
+        border: 1px solid #999;
+        border-radius: 6px;
+        user-select: none;
+        font-size: 15px;
+        width: 250px;
+        height: 70px;
+        color: #444;
+    }
+
+    /* Checked */
+    .form_radio_btn_1 input[type=radio]:checked + label {
+        background: #ffe0a6;
+        border: 1px solid #e8b455;
+
+    }
+
+
+.form_radio_btn_2 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 2%;
+    text-align:center;
+}
+
+    .form_radio_btn_2 input[type=radio] {
+        display: none;
+    }
+
+    .form_radio_btn_2 label {
+        display: inline-block;
+        cursor: pointer;
+
+        padding: 0px 15px;
+        padding-top:15px;
+        
+        line-height: 24px;
+        border: 1px solid #999;
+        border-radius: 6px;
+        user-select: none;
+        font-size: 15px;
+        width: 250px;
+        height: 70px;
+        color:#444;
+    }
+
+    /* Checked */
+    .form_radio_btn_2 input[type=radio]:checked + label {
+        background: #ffe0a6;
+        border: 1px solid #e8b455;
+    }
+
+.dostavka_input{
+    display:flex;
+    margin-top:4%;
+    margin-bottom:4%;
+}
+
+.imp_phone {
+    border: 1px solid #666;
+    border-radius: 4px;
+    width: 39%;
+    height: 30px;
+   margin-left:3%;
+}
+
+.imp_name {
+    border: 1px solid #666;
+    border-radius: 4px;
+    width: 39%;
+    height: 30px;
+    margin-left:2%;
+}
+
+
+.imp_address {
+    border: 1px solid #666;
+    border-radius: 4px;
+    width: 82%;
+    height: 30px;
+    margin-left: 2%;
+    margin-top:3%;
+}
+
+
+.content_basket {
+    background-color: white;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    margin-bottom:5px;
+    padding-bottom:1%;
+}
+
+
+.content_box {
+    margin-top: 5PX;
+    margin-left: 5PX;
+    margin-right: 5PX;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:7%;
+}
+
+.basket_oplata {
+display:flex;
+}
+
+
+
+.form_radio_btn_3 {
+    display: inline-block;
+   
+    margin-left: 2%;
+    text-align: center;
+}
+
+.form_radio_btn_3 input[type=radio] {
+    display: none;
+}
+
+    .form_radio_btn_3 label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0px 15px;
+        padding-top: 15px;
+        line-height: 24px;
+        border: 1px solid #999;
+        border-radius: 10px 0 0 10px;
+        user-select: none;
+        font-size: 15px;
+        width: 140px;
+        height: 40px;
+        color: #444;
+    }
+
+/* Checked */
+.form_radio_btn_3 input[type=radio]:checked + label {
+    background: #ffe0a6;
+    border: 1px solid #e8b455;
+}
+
+
+.form_radio_btn_4 {
+    display: inline-block;
+    margin-right: 10px;
+  
+    text-align: center;
+}
+
+    .form_radio_btn_4 input[type=radio] {
+        display: none;
+    }
+
+    .form_radio_btn_4 label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0px 15px;
+        padding-top: 15px;
+        line-height: 24px;
+        border: 1px solid #999;
+        border-radius:0 10px 10px 0;
+        user-select: none;
+        font-size: 15px;
+        width: 140px;
+        height: 40px;
+        color: #444;
+    }
+
+    /* Checked */
+    .form_radio_btn_4 input[type=radio]:checked + label {
+        background: #ffe0a6;
+        border: 1px solid #e8b455;
+    }
+
+.basket_oplata_tovar, .basket_oplata_dostavka, .basket_oplata_all {
+    display: flex;
+    margin-top:5%;
+}
+
+.oplata_tovar {
+    font-size: 19px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    width:80%;
+    margin-left: 2%;
+  
+}
+
+.oplata_cena {
+    font-size: 19px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    width: 20%;
+    margin-right: 7%;
+}
+
+
+.oplata_tovar_all {
+    font-size: 19px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    width: 80%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.oplata_cena_all {
+    font-size: 19px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    width: 20%;
+    font-weight: bold;
+    margin-right: 7%;
+}
+
+
+.basket_oplata_check {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+.basket_oplata_check_text {
+    width: 80%;
+    word-wrap: break-word;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.basket_oplata_check_ch {
+    margin-top: 5px;
+   
+    width: 30px;
+ height:30px;
+}
+
+
+.basket_oplata_button {
+    background-color: #46c6be;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+ width:60%;
+ margin-left:15%;
+}
+
+
+
+    .basket_oplata_button:disabled {
+        background-color: #a3a3a3;
+    }
+
+.knopp {
+
+}
+
+
+
+
+
+
+
+.select-dom {
+    font-size: 16px;
+    font-family: sans-serif;
+  
+    color: #444;
+    line-height: 1.3;
+    padding: .5em .5em;
+    width: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+}
+
+    .select-dom::-ms-expand {
+        display: none;
+        text-align: center;
+    }
+
+    .select-dom:hover {
+        border-color: #888;
+        text-align: center;
+    }
+
+    .select-dom:focus {
+        border-color: #aaa;
+        color: #222;
+        outline: none;
+        text-align: center;
+    }
+
+.basket_dish_input {
+    width: 40px;
+    height: 40px;
+    background-size: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    outline: none;
+    pointer-events:none;
+}
+
+
+
+#map {
+
+    width: 600px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    margin-top:5%;
+   
+}
